@@ -2,3 +2,89 @@
 warn [Sat Nov 10 2018 14:24:14 GMT+0545 (Nepal Standard Time)]  ../uploads/2018/06/jazz-electro.mp3
 
 warn [Sat Nov 10 2018 14:27:09 GMT+0545 (Nepal Standard Time)]  ../uploads/2018/06/jazz-electro.mp3
+
+
+
+
+warn [Sat Nov 10 2018 16:27:42 GMT+0545 (Nepal Standard Time)]  ReferenceError: consol is not defined
+    at fs.readdirSync.forEach.file (F:\vurung\vo\app\gulpfile.js:26:17)
+    at Array.forEach (<anonymous>)
+    at data.map.res (F:\vurung\vo\app\gulpfile.js:24:60)
+    at Array.map (<anonymous>)
+    at db.query.then.data (F:\vurung\vo\app\gulpfile.js:21:14)
+    at tryCatcher (F:\vurung\vo\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (F:\vurung\vo\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (F:\vurung\vo\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (F:\vurung\vo\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (F:\vurung\vo\node_modules\bluebird\js\release\promise.js:694:18)
+    at _drainQueueStep (F:\vurung\vo\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (F:\vurung\vo\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (F:\vurung\vo\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues (F:\vurung\vo\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5)
+
+warn [Sat Nov 10 2018 16:28:30 GMT+0545 (Nepal Standard Time)]  ../uploads/2018/06/jazz-electro.mp3
+warn [Sat Nov 10 2018 16:28:30 GMT+0545 (Nepal Standard Time)]  ../uploads/2017/10/RANDY_THOMAS_Tony_Awards_Short_Opening.mp3
+
+warn [Sat Nov 10 2018 16:29:15 GMT+0545 (Nepal Standard Time)]  ReferenceError: consol is not defined
+    at fs.readdirSync.forEach.file (F:\vurung\vo\app\gulpfile.js:27:17)
+    at Array.forEach (<anonymous>)
+    at data.map.res (F:\vurung\vo\app\gulpfile.js:25:60)
+    at Array.map (<anonymous>)
+    at db.query.then.data (F:\vurung\vo\app\gulpfile.js:22:14)
+    at tryCatcher (F:\vurung\vo\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (F:\vurung\vo\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (F:\vurung\vo\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (F:\vurung\vo\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (F:\vurung\vo\node_modules\bluebird\js\release\promise.js:694:18)
+    at _drainQueueStep (F:\vurung\vo\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (F:\vurung\vo\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (F:\vurung\vo\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues (F:\vurung\vo\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5)
+
+warn [Sat Nov 10 2018 16:30:19 GMT+0545 (Nepal Standard Time)]  ReferenceError: consol is not defined
+    at fs.readdirSync.forEach.file (F:\vurung\vo\app\gulpfile.js:28:17)
+    at Array.forEach (<anonymous>)
+    at data.map.res (F:\vurung\vo\app\gulpfile.js:26:60)
+    at Array.map (<anonymous>)
+    at db.query.then.data (F:\vurung\vo\app\gulpfile.js:22:14)
+    at tryCatcher (F:\vurung\vo\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (F:\vurung\vo\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (F:\vurung\vo\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (F:\vurung\vo\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (F:\vurung\vo\node_modules\bluebird\js\release\promise.js:694:18)
+    at _drainQueueStep (F:\vurung\vo\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (F:\vurung\vo\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (F:\vurung\vo\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues (F:\vurung\vo\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5)
+
+warn [Sat Nov 10 2018 16:31:51 GMT+0545 (Nepal Standard Time)]  { Error: ENOENT: no such file or directory, scandir 'F:\vurung\vo\uploads\avatars\5'
+    at Object.fs.readdirSync (fs.js:904:18)
+    at data.map.res (F:\vurung\vo\app\gulpfile.js:33:16)
+    at Array.map (<anonymous>)
+    at db.query.then.data (F:\vurung\vo\app\gulpfile.js:22:14)
+    at tryCatcher (F:\vurung\vo\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (F:\vurung\vo\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (F:\vurung\vo\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (F:\vurung\vo\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (F:\vurung\vo\node_modules\bluebird\js\release\promise.js:694:18)
+    at _drainQueueStep (F:\vurung\vo\node_modules\bluebird\js\release\async.js:138:12)
+    at _drainQueue (F:\vurung\vo\node_modules\bluebird\js\release\async.js:131:9)
+    at Async._drainQueues (F:\vurung\vo\node_modules\bluebird\js\release\async.js:147:5)
+    at Immediate.Async.drainQueues (F:\vurung\vo\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5)
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'F:\\vurung\\vo\\uploads\\avatars\\5' }
+

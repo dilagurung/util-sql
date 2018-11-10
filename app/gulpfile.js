@@ -2,13 +2,50 @@
  * Created by oa on 11/10/2018.
  */
 
-
 var gulp = require('gulp');
 var db = require('./database');
 var fs = require('fs');
 var mainDir="./uploads/demo/";
+var mainSourceDirImage="../uploads/avatars/";
 var logger = require('logger').createLogger(); // logs to STDOUT
 var logger = require('logger').createLogger('./error.log');
+
+
+gulp.task('migrate-image', function (args)
+{
+    db.query("select distinct user_id from demo_pre",
+        {type: db.QueryTypes.SELECT}
+    ).then(data =>
+    {
+        data.map(res=>
+        {
+            console.log(mainSourceDirImage+res.user_id);
+            fs.readdir(mainSourceDirImage+res.user_id, (err, files) => {
+                try {
+                    files.forEach(file => {
+                        if (file.includes("-bpfull")) {
+                            updateFileName(res.user_id, file)
+                        }
+                    });
+                }
+                catch(ex)
+                {
+                    console.log(ex);
+                }
+
+            })
+
+
+        });
+
+    }).catch(function (err) {
+logger.warn(err);
+    });
+
+
+});
+
+
 
 gulp.task('default', function (args) {
 //elasticDao.addSuggest('rest','rest');
@@ -75,3 +112,24 @@ console.log(dir, '  ',file,' ',fileName);
     });
 
 }
+
+var updateFileName=function(user_id,fileName)
+{
+
+
+    db.query("update users set photo=$photo where user_id=$user_id",
+        {bind:{photo:fileName,user_id:user_id},type: db.QueryTypes.UPDATE}
+    ).then(data=>{
+        console.log(data,' updated.');
+    }).catch(function (err) {
+        logger.warn(err);
+    });
+
+}
+gulp.task('test',function (args)
+{
+
+    var test="dilaram";
+    console.log(test.includes("ram"));
+
+});
